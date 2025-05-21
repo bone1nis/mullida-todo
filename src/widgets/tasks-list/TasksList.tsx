@@ -1,4 +1,4 @@
-import { TaskCardContainer } from "../../features/task";
+import TaskCardContainer from "../task-card-container/TaskCardContainer";
 
 import { useTaskStore } from "../../entities/task";
 import { useFilteredTasks } from "../../entities/task";

@@ -1,11 +1,11 @@
 import { useState } from "react";
 
-import { RemoveTaskButton } from "../../remove-task";
-import { EditTaskButton, EditTaskModal } from "../../edit-task";
-import { ToggleTaskStatusButton } from "../../toggle-task-status";
+import { RemoveTaskButton } from "../../features/remove-task";
+import { EditTaskButton, EditTaskModal } from "../../features/edit-task";
+import { ToggleTaskStatusButton } from "../../features/toggle-task-status";
 
-import { TaskCard } from "../../../entities/task";
-import type { EditTaskPayload, Task } from "../../../entities/task";
+import { TaskCard } from "../../entities/task";
+import type { Task, EditTaskPayload } from "../../entities/task";
 
 interface TaskCardContainerProps {
     task: Task;
