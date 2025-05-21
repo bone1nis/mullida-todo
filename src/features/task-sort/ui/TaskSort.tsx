@@ -11,11 +11,11 @@ const TaskSort: React.FC = () => {
 
   return (
     <div className="mb-4">
-      <label className="mr-2 font-medium">Сортировка:</label>
+      <label className="mr-2 font-medium text-black dark:text-white">Сортировка:</label>
       <select
         value={sortBy}
         onChange={handleChange}
-        className="border rounded px-2 py-1"
+        className="border rounded px-2 py-1 bg-white text-black dark:white dark:text-dark"
       >
         <option value="createdAt">По дате создания</option>
         <option value="title">По названию</option>

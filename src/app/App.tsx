@@ -1,11 +1,10 @@
 import HomePage from "../pages/home/HomePage";
+import { AppBar } from "../shared";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <header className="py-4 border-b mb-6 ">
-        <h1 className="text-2xl font-bold text-center">Millida Todo</h1>
-      </header>
+    <div className="min-h-screen bg-white dark:bg-black">
+      <AppBar />
       <div className="container mx-auto px-4">
         <HomePage />
       </div>

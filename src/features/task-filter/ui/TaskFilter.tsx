@@ -20,7 +20,7 @@ const TaskFilter: React.FC = () => {
       <select
         value={filter.status}
         onChange={handleStatusChange}
-        className="border rounded px-2 py-1 w-full sm:w-auto"
+        className="rounded px-2 py-1 w-full sm:w-auto border border-black dark:border-transparent bg-white"
       >
         <option value="all">Все</option>
         <option value="completed">Выполненные</option>
@@ -32,7 +32,7 @@ const TaskFilter: React.FC = () => {
         placeholder="Поиск по названию..."
         value={filter.search}
         onChange={handleSearchChange}
-        className="border rounded px-2 py-1 w-full sm:flex-grow"
+        className="rounded px-2 py-1 w-full sm:flex-grow border border-black dark:border-transparent bg-white"
       />
     </div>
   );
